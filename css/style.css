@@ -1,0 +1,135 @@
+.top_nav .nav-item .nav-link{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    transition:ease-in-out .4s;
+   
+}
+#top_nav{
+    padding: 2px 40px;
+}
+#top_nav .navbar-nav .dropdown-menu a {
+    background: #6440fb;
+    color: #fff;
+    font-weight: 500;
+    width: 276px;
+   
+}
+#top_nav .navbar-expand-lg .navbar-nav .dropdown-menu {
+    position: absolute;
+}
+#top_nav .navbar .dropdown-menu {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all .3s ease-in;
+}
+#top_nav .navbar-nav .dropdown-menu a{
+    transition: all .4s;
+}
+#top_nav .navbar-nav .dropdown-menu a:hover {
+    background: #fff;
+    color: #6440FB;
+    font-weight: 500;
+    transition: all .4s;
+}
+
+ .navbar .nav-item .dropdown-menu {
+    display: block;
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all .3s ease-in;
+    margin-top: -6px;
+    box-shadow: none;
+    border: 0;
+   
+}
+
+ .navbar .dropdown:hover >.dropdown-menu {
+    transform: scaleY(1);
+    opacity: 1;
+    visibility: visible;
+}
+
+ .navbar .dropdown:hover>.dropdown-menu:hover > .dropdown-menu {
+    display: block;
+    transform: scaleY(1);
+    opacity: 1;
+    visibility: visible;
+} 
+
+ .dropdown-menu {
+    position: absolute;
+    z-index: 1000;
+    display: none;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: none;
+    border: none;
+    border-radius: .25rem;
+    background: transparent;
+}
+.rount_user {
+    background: #fff;
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 4px;
+    position: relative;
+}
+.user_icon i{
+    margin-bottom: 10px;
+    display: inline-block;
+    position: absolute;
+}
+.user_drop_down{
+    position: absolute;
+    top: 35px;
+    left: -70px;
+}
+.roud_top {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background: #6440FB;
+    top: -1px;
+    right: -2px;
+}
+.roud_top_two {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+    background: #45C881;
+    top: -3px;
+    right: -2px;
+}
+.roud_zero {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    color: #fff;
+    top: -8px;
+    right: -5px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
